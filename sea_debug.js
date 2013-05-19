@@ -69,7 +69,8 @@ var log = seajs.log = function(msg, type) {
 var eventsCache = seajs.events = {}
 
 /**
- * 绑定一个事件到事件缓存堆里
+ * 绑定一个事件到事件
+ * 并缓存到seajs.cache里
  */
 // Bind event
 seajs.on = function(event, callback) {
