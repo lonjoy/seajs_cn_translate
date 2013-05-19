@@ -70,7 +70,7 @@ var eventsCache = seajs.events = {}
 
 /**
  * 绑定一个事件到事件
- * 并缓存到seajs.cache里
+ * 并添加到seajs.cache缓存里
  */
 // Bind event
 seajs.on = function(event, callback) {
