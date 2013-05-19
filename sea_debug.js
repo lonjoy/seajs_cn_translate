@@ -122,7 +122,6 @@ seajs.off = function(event, callback) {
 // Emit event, firing all bound callbacks. Callbacks are passed the same
 // arguments as `emit` is, apart from the event name
 var emit = seajs.emit = function(event, data) {
-
   var list = eventsCache[event], fn
 
   if (list) {
@@ -1213,7 +1212,7 @@ function plugin2preload(arr) {
  * bootstrap.js - Initialize the plugins and load the entry module
  */
 /**
- * seajs的启动
+ * seajs的启动配置
  */
 config({
   // Get initial plugins
